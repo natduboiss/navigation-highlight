@@ -18,3 +18,24 @@ h1 {
   margin: 0;
   padding: 0;
 }
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ol {
+  padding: 0;
+}
+
+.nav li {
+  font-family: Georgia;
+  font-size: 1.125rem;
+  color: #fff;
+  display: inline-block;
+  background-color: #b2a212;
+  padding: .2em .5em .3em;
+  margin: 0;
+  border-radius: 4px;
+  line-height: 1.5;
+}
