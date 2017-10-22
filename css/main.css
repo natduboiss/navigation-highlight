@@ -6,6 +6,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #ffe500;
+}
+
 header {
   background-color: #ffe500;
 }
@@ -17,11 +21,20 @@ h1 {
   font-size: 3rem;
   margin: 0;
   padding: 0;
+  line-height: 1.5;
+}
+
+nav {
+  line-height: 1.5;
 }
 
 a {
   text-decoration: none;
   color: #fff;
+}
+
+.nav a:hover {
+  background-color: #cc1465;
 }
 
 ol {
@@ -34,8 +47,16 @@ ol {
   color: #fff;
   display: inline-block;
   background-color: #b2a212;
-  padding: .2em .5em .3em;
   margin: 0;
   border-radius: 4px;
   line-height: 1.5;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .2em .5em .3em;
+  background-color: #b2a212;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
 }
