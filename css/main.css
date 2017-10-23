@@ -8,6 +8,7 @@ html {
 
 body {
   background-color: #ffe500;
+  margin: 0;
 }
 
 header {
@@ -21,11 +22,11 @@ h1 {
   font-size: 3rem;
   margin: 0;
   padding: 0;
-  line-height: 1.5;
+  line-height: 1.25;
 }
 
-nav {
-  line-height: 1.5;
+.nav {
+  text-align: center;
 }
 
 a {
@@ -59,4 +60,27 @@ ol {
   border-radius: 4px;
   color: #fff;
   text-decoration: none;
+}
+
+main {
+  background-color: #fff;
+  padding-bottom: .75em;
+}
+
+h2 {
+  font-family: "Sigmar One", cursive;
+  color: #b20953;
+  font-size: 1.875rem;
+  padding: .7em .5em .7em;
+  margin: 0;
+}
+
+p {
+  font-size: 1.125rem;
+  color: #2f2d13;
+  text-align: center;
+  text-align: justify;
+  margin: 0;
+  line-height: 1.5;
+  padding: .2em .5em .3em;
 }
